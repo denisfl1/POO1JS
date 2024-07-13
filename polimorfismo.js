@@ -6,7 +6,7 @@ class Bloco{
         this.textura = textura
         this.resistencia = resistencia
     }
-    //ações 
+    //ações // Métodos
     criarBloco(){
         console.log("-----------------------------------------------")
         console.log("[]")
@@ -24,6 +24,9 @@ class Bloco{
         console.log("[] [] [] [] Recursos obtidos!")
     }
 }
+
+
+
 
 class Enxada extends Bloco{
     constructor(textura,resistencia,conquista){
